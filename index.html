@@ -14,57 +14,85 @@
             <img src="imgs/Masteralb.com%20TOP%20LOGO.png">
         </div>
         <div class="form-container">
-            <div class="form">
-                <form class="register">
-                    <p>Register Form</p>
-                    <div class="input-group">
-                        <img src="imgs/glyphicons_003_user.png">
-                        <input type="text" id="username-reg" name="username" placeholder="Username" class="form-input" required>
-                    </div>
-                    <div class="input-group">
-                        <img src="imgs/glyphicons_203_lock.png">
-                        <input type="password" id="password-reg" name="password" placeholder="Password" class="form-input" required>
-                    </div>
-                    <div class="input-group">
-                        <img src="imgs/glyphicons_203_lock.png">
-                        <input type="password" id="password-conf-reg" name="password" placeholder="Confirm passwod" class="form-input" required>
-                    </div>
-                    <div class="input-group">
-                        <img class="email" src="imgs/glyphicons_010_envelope.png">
-                        <input type="email" id="email-reg" name="email" placeholder="Email" class="form-input" required>
-                    </div>
-                    <div class="input-group">
-                        <img class="location" src="imgs/glyphicons_242_google_maps.png">
-                        <select class="form-input" required>
-                            <option value="wroclaw">Wroclaw</option>
-                            <option value="london">London</option>
-                            <option value="arcadia bay">Arcadia Bay</option>
-                        </select>
-                    </div>
-                    <div class="input-group">
-                        <input type="checkbox" name="terms" id="terms">
-                        <label for="terms">I have read and accept the terms of use.</label>
-                    </div>
-                    <button type="submit">Sign up</button>
-                </form>
-            </div>
-            <div class="form">
-                <form class="signin">
-                    <p>Sign In Form</p>
-                    <div class="input-group">
-                        <img src="imgs/glyphicons_003_user.png">
-                        <input type="text" id="username-sign" name="username" placeholder="Username" class="form-input" required>
-                    </div>
-                    <div class="input-group">
-                        <img src="imgs/glyphicons_203_lock.png">
-                        <input type="password" id="password-reg" name="password" placeholder="Password" class="form-input" required>
-                    </div>
-                    <div class="input-group">
-                        <input type="checkbox" name="rememberme" id="remember">
-                        <label for="remember">Remember me</label>
+            <div class="row1">
+                <div class="form">
+                    <form class="register">
+                        <p>Register Form</p>
+                        <div class="input-group">
+                            <img src="imgs/glyphicons_003_user.png">
+                            <input type="text" id="username-reg" name="username" placeholder="Username" class="form-input" required>
+                        </div>
+                        <div class="input-group">
+                            <img src="imgs/glyphicons_203_lock.png">
+                            <input type="password" id="password-reg" name="password" placeholder="Password" class="form-input" required>
+                        </div>
+                        <div class="input-group">
+                            <img src="imgs/glyphicons_203_lock.png">
+                            <input type="password" id="password-conf-reg" name="password" placeholder="Confirm passwod" class="form-input" required>
+                        </div>
+                        <div class="input-group">
+                            <img class="email" src="imgs/glyphicons_010_envelope.png">
+                            <input type="email" id="email-reg" name="email" placeholder="Email" class="form-input" required>
+                        </div>
+                        <div class="input-group">
+                            <img class="location" src="imgs/glyphicons_242_google_maps.png">
+                            <select class="form-input" required>
+                                <option value="wroclaw">Wroclaw</option>
+                                <option value="london">London</option>
+                                <option value="arcadia bay">Arcadia Bay</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <input type="checkbox" name="terms" id="terms">
+                            <label for="terms">I have read and accept the terms of use.</label>
+                        </div>
+                        <button type="submit">Sign up</button>
+                    </form>
+                </div>
+                <div class="form">
+                    <form class="send">
+                        <p>Send Email</p>
+                        <div class="input-group">
+                            <img src="imgs/glyphicons_003_user.png">
+                            <input type="text" id="firstname-send" name="firstname" placeholder="Your Name" class="form-input" required>
+                        </div>
+                        <div class="input-group">
+                            <img src="imgs/glyphicons_010_envelope.png">
+                            <input type="text" id="email-send" name="email" placeholder="Your Email" class="form-input" required>
+                        </div>
+                        <textarea id="message" placeholder="Type your message...." class="form-control"></textarea>
+                        <div class="input-group">
+                            <input type="checkbox" name="rememberme" id="remember">
+                            <label for="remember">Send a copy to my Email</label>
+                        </div>
                         <button type="submit">Sign In</button>
-                    </div>
-                </form>
+                    </form>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="form">
+                    <form class="signin">
+                        <p>Sign In Form</p>
+                        <div class="input-group">
+                            <img src="imgs/glyphicons_003_user.png">
+                            <input type="text" id="username-sign" name="username" placeholder="Username" class="form-input" required>
+                        </div>
+                        <div class="input-group">
+                            <img src="imgs/glyphicons_203_lock.png">
+                            <input type="password" id="password-reg" name="password" placeholder="Password" class="form-input" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="checkbox" name="rememberme" id="remember">
+                            <label for="remember">Remember me</label>
+                            <button type="submit">Sign In</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="form">
+                    <form class="recovery">
+                        <p>Recovery From</p>
+                    </form>
+                </div>
             </div>
         </div>
 	</body>

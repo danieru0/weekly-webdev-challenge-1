@@ -21,13 +21,23 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
-    width: 90%;
+    width: 960px;
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.row1 {
+    align-self: flex-start;
+    float: left;
+}
+
+.row2 {
+    align-self: flex-start;
+    float: right;
+    margin-left: 80px;
 }
 
 .form {
@@ -156,11 +166,6 @@ select.form-input {
     height: 218px;
 }
 
-.form-container .form:nth-child(2) {
-    margin-left: 79px;
-    align-self: flex-start;
-}
-
 .signin button {
     width: 139px;
     height: 41px;
@@ -169,4 +174,41 @@ select.form-input {
 
 .signin .input-group:last-child {
     margin: 0;
+}
+
+.row1 .form:last-child {
+    margin-top: 89px;
+}
+
+.send {
+    width: 382px;
+    height: 535px;
+}
+
+.row2 .form:not(:first-child) {
+    margin-top: 80px;
+}
+
+.recovery {
+    width: 382px;
+    height: 218px;
+}
+
+.form-control {
+    padding-top: 16px;
+    width: 315px;
+    height: 230px;
+    padding-left: 23px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    resize: none;
+    color: #afafaf;
+}
+
+.send .input-group:nth-of-type(3) {
+    margin-top: 15px;
+    position: relative;
+    left: -55px
 }
