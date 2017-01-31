@@ -53,17 +53,17 @@
                     <form class="send">
                         <p>Send Email</p>
                         <div class="input-group">
-                            <img src="imgs/glyphicons_003_user.png">
+                            <img  src="imgs/glyphicons_003_user.png">
                             <input type="text" id="firstname-send" name="firstname" placeholder="Your Name" class="form-input" required>
                         </div>
                         <div class="input-group">
-                            <img src="imgs/glyphicons_010_envelope.png">
+                            <img class="email" src="imgs/glyphicons_010_envelope.png">
                             <input type="text" id="email-send" name="email" placeholder="Your Email" class="form-input" required>
                         </div>
                         <textarea id="message" placeholder="Type your message...." class="form-control"></textarea>
                         <div class="input-group">
-                            <input type="checkbox" name="rememberme" id="remember">
-                            <label for="remember">Send a copy to my Email</label>
+                            <input type="checkbox" name="sendcopy" id="copy">
+                            <label for="copy">Send a copy to my Email</label>
                         </div>
                         <button type="submit">Sign In</button>
                     </form>
@@ -91,6 +91,18 @@
                 <div class="form">
                     <form class="recovery">
                         <p>Recovery From</p>
+                        <div class="input-group">
+                            <img src="imgs/glyphicons_139_phone.png">
+                            <input type="email" id="email-recovery" name="email" placeholder="Enter your Email" class="form-input" required>
+                        </div>
+                        <div class="input-group">
+                            <img class="email" src="imgs/glyphicons_010_envelope.png">
+                            <input type="tel" id="phone-recovery" name="phone" placeholder="Enter your Phone number" class="form-input" required>
+                        </div>
+                        <div class="button-group">
+                            <button type="submit">Send</button>
+                            <button type="submit" disabled>Done</button>
+                        </div>
                     </form>
                 </div>
             </div>

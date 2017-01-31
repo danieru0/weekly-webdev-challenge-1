@@ -189,11 +189,6 @@ select.form-input {
     margin-top: 80px;
 }
 
-.recovery {
-    width: 382px;
-    height: 218px;
-}
-
 .form-control {
     padding-top: 16px;
     width: 315px;
@@ -211,4 +206,29 @@ select.form-input {
     margin-top: 15px;
     position: relative;
     left: -55px
+}
+
+.recovery {
+    width: 382px;
+    height: 218px;
+}
+
+.button-group {
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recovery button:nth-of-type(1) {
+    width: 148px;
+}
+
+.recovery button:nth-of-type(2) {
+    width: 148px;
+    background-color: #c4e0a3;
+    border: 1px solid #90ca6d;
+}
+
+.recovery button:nth-of-type(2):hover {
+    cursor: not-allowed;
 }
