@@ -48,10 +48,6 @@ body {
     font-size: 32px;
 }
 
-.form-container .form:nth-child(2) {
-    margin-left: 79px;
-}
-
 .form form {
     background-color: #f4f4f4;
     border-radius: 1%;
@@ -124,12 +120,10 @@ select.form-input {
     width: 26px;
     height: 26px;
     position: absolute;
-    left: -30px;
-    bottom: 0px;
+    left: -10px;
     background-color: #f4f4f4;
     border: 1px solid #c6c6c6;
     border-radius: 3px;
-    margin-left: 21px;
 }
 
 .input-group input[type=checkbox]:checked + label:before {
@@ -160,4 +154,19 @@ select.form-input {
 .signin {
     width: 382px;
     height: 218px;
+}
+
+.form-container .form:nth-child(2) {
+    margin-left: 79px;
+    align-self: flex-start;
+}
+
+.signin button {
+    width: 139px;
+    height: 41px;
+    margin-left: 30px;
+}
+
+.signin .input-group:last-child {
+    margin: 0;
 }

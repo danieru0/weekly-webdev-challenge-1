@@ -42,7 +42,7 @@
                         </select>
                     </div>
                     <div class="input-group">
-                        <input type="checkbox" name="terms" id="terms" required>
+                        <input type="checkbox" name="terms" id="terms">
                         <label for="terms">I have read and accept the terms of use.</label>
                     </div>
                     <button type="submit">Sign up</button>
@@ -50,7 +50,20 @@
             </div>
             <div class="form">
                 <form class="signin">
-                    
+                    <p>Sign In Form</p>
+                    <div class="input-group">
+                        <img src="imgs/glyphicons_003_user.png">
+                        <input type="text" id="username-sign" name="username" placeholder="Username" class="form-input" required>
+                    </div>
+                    <div class="input-group">
+                        <img src="imgs/glyphicons_203_lock.png">
+                        <input type="password" id="password-reg" name="password" placeholder="Password" class="form-input" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="checkbox" name="rememberme" id="remember">
+                        <label for="remember">Remember me</label>
+                        <button type="submit">Sign In</button>
+                    </div>
                 </form>
             </div>
         </div>
