@@ -214,6 +214,7 @@ select.form-input {
 }
 
 .button-group {
+    margin-top: 10px;
     width: 340px;
     display: flex;
     justify-content: space-between;
@@ -231,4 +232,19 @@ select.form-input {
 
 .recovery button:nth-of-type(2):hover {
     cursor: not-allowed;
+}
+
+.subscribe {
+    width: 382px;
+    height: 156px;
+}
+
+.subscribe button:nth-of-type(1) {
+    width: 148px;
+}
+
+.subscribe button:nth-of-type(2) {
+    width: 148px;
+    background-color: #f13d4d;
+    border: 1px solid #a2202a;
 }
