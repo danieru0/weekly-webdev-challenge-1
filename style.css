@@ -1,0 +1,163 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(imgs/Background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.logo {
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 420px;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form p {
+    position: absolute;
+    top: -110px;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.form-container .form:nth-child(2) {
+    margin-left: 79px;
+}
+
+.form form {
+    background-color: #f4f4f4;
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.register {
+    width: 382px;
+    height: 460px;
+}
+
+.form-input {
+    width: 259px;
+    height: 39px;
+    padding-left: 80px;
+    border-radius: 5px;
+    border: 1px solid #c6c6c6;
+    font-size: 16px;
+    color: #afafaf;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-group:nth-of-type(6) {
+    margin-top: -15px;
+}
+
+.input-group img {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border-right: 1px solid #e4e4e4;
+    padding-right: 20px;
+}
+
+.input-group img.email {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-right: 17px;
+}
+
+.location {
+    padding-left: 5px;
+}
+
+select.form-input {
+    width: 339px;
+}
+
+.input-group label {
+    cursor: pointer;
+    color: #afafaf;
+    font-size: 17px;
+    margin-left: 35px;
+}
+
+.input-group input[type=checkbox] {
+    display: none;
+}
+
+.input-group label:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: -30px;
+    bottom: 0px;
+    background-color: #f4f4f4;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    margin-left: 21px;
+}
+
+.input-group input[type=checkbox]:checked + label:before {
+    content: "\2022";
+    color: #8ac915;
+    font-size: 55px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.form button {
+    margin-top: -15px;
+    width: 339px;
+    height: 48px;
+    background-color: #90ce29;
+    color: #f1f5ee;
+    font-size: 24px;
+    border: 1px solid #3b9a00;
+    border-radius: 4px;
+}
+
+.form button:focus,
+.form button:hover {
+    background-color: #80bd18;
+    cursor: pointer;
+}
+
+.signin {
+    width: 382px;
+    height: 218px;
+}
