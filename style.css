@@ -258,6 +258,10 @@ select.form-input {
     font-size: 18px;
 }
 
+.subscribe button:nth-of-type(2):hover {
+    background-color: #d04b5f;
+}
+
 @media only screen and (max-width: 976px) {
     .form-container {
         width: 100%;
