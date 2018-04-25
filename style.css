@@ -55,6 +55,9 @@ body {
     position: absolute;
     top: -110px;
     color: #ffffff;
+    left: 0px;
+    right: 0px;
+    text-align: center;
     font-size: 32px;
 }
 
